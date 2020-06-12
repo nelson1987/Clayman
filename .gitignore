@@ -51,4 +51,14 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-bin/
+bin/ 
+.vs/ 
+obj/ 
+debug/ 
+release/ 
+*.user 
+*.cache 
+
+*.propgs
+
+Tests/Clayman.DomainTests/obj/
