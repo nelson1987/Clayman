@@ -1,0 +1,27 @@
+
+    language: csharp
+
+    mono: none
+    
+    dotnet: 2.2
+    
+    solution: "./Clayman.sln"
+    
+    install:
+    - dotnet restore
+# steps:
+#     - uses: actions/checkout@master
+#     - uses: actions/setup-dotnet@v1
+#       with:
+#         dotnet-version: '2.2.x' # SDK Version to use; x will use the latest version of the 3.1 channel
+#     - run: dotnet build src/Web/Clayman.Api
+    
+    script:
+    - dotnet build
+    - dotnet test .src/Tests/Clayman.DomainTests/Clayman.DomainTests.csproj
+    - dotnet dev-certs https
+    #- dotnet run  --project ./Desafio.Api/Desafio.Api.csproj
+    service:
+    - docker
+    
+    # sudo: required
