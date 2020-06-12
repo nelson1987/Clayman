@@ -20,6 +20,8 @@
     - dotnet build
     - dotnet test .src/Tests/Clayman.DomainTests/Clayman.DomainTests.csproj
     - dotnet dev-certs https
+    - dotnet pack --configuration Release
+    - dotnet nuget push "bin/Release/Clayman.1.0.0.nupkg" --source "github"
     #- dotnet run  --project ./Desafio.Api/Desafio.Api.csproj
     service:
     - docker
