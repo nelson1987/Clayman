@@ -1,0 +1,9 @@
+d:\Clayman\src\Domain\Clayman.Domain\bin\Debug\netcoreapp2.2\Clayman.Domain.deps.json
+d:\Clayman\src\Domain\Clayman.Domain\bin\Debug\netcoreapp2.2\Clayman.Domain.dll
+d:\Clayman\src\Domain\Clayman.Domain\bin\Debug\netcoreapp2.2\Clayman.Domain.pdb
+d:\Clayman\src\Domain\Clayman.Domain\obj\Debug\netcoreapp2.2\Clayman.Domain.csprojAssemblyReference.cache
+d:\Clayman\src\Domain\Clayman.Domain\obj\Debug\netcoreapp2.2\Clayman.Domain.csproj.CoreCompileInputs.cache
+d:\Clayman\src\Domain\Clayman.Domain\obj\Debug\netcoreapp2.2\Clayman.Domain.AssemblyInfoInputs.cache
+d:\Clayman\src\Domain\Clayman.Domain\obj\Debug\netcoreapp2.2\Clayman.Domain.AssemblyInfo.cs
+d:\Clayman\src\Domain\Clayman.Domain\obj\Debug\netcoreapp2.2\Clayman.Domain.dll
+d:\Clayman\src\Domain\Clayman.Domain\obj\Debug\netcoreapp2.2\Clayman.Domain.pdb
